@@ -36,7 +36,7 @@ function getWeather(lat, lon) {
     })
     .then(function(json) {
         //온도, 위치, 날씨묘사, 날씨아이콘을 받는다. 
-        const temperature = json.main.temp;
+        const temperature = json.main.temp.toFixed(1);
         const place = json.name;
         const weatherDescription = json.weather[0].description;
         const weatherIcon = json.weather[0].icon;
