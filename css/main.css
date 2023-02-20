@@ -19,7 +19,7 @@ body::-webkit-scrollbar { display:none; }
     justify-content: center;
     align-items: center;
     height: 400px;
-    padding: 80px;
+    padding: 50px;
 }
 
 .date{
