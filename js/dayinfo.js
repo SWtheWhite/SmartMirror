@@ -8,7 +8,7 @@ function dayinfo(){
     document.getElementById("dday").innerHTML = dday;
     document.getElementById("info").innerHTML = "개강";
 }
-
+dayinfo();
 window.onload = function(){
     dayinfo();
     setInterval(dayinfo,60000); //1분마다 Refresh
