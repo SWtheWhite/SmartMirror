@@ -52,5 +52,5 @@ function getWeather(lat, lon) {
 init();
 window.onload = function(){
     init();
-    setInterval(init,60000); //1분마다 Refresh
+    setInterval(init,1000); //1분마다 Refresh
 }
