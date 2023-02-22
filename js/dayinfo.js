@@ -11,5 +11,5 @@ function dayinfo(){
 dayinfo();
 window.onload = function(){
     dayinfo();
-    setInterval(dayinfo,60000); //1분마다 Refresh
+    setInterval(dayinfo,1000); //1마다 Refresh
 }
