@@ -17,6 +17,7 @@ function modifyNumber(time){
     else
         return time;
 }
+setClock();
 window.onload = function(){
     setClock();
     setInterval(setClock,1000); //1초마다 setClock 함수 실행
